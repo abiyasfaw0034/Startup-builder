@@ -49,7 +49,6 @@ const StartupForm = () => {
         toast("Error", {
           description: "Please check your inputs and try again",
           duration: 4000,
-          type: "error", // Not necessary if using `toast.error()`
         });
         return { ...prevState, error: "Validation failed", status: "ERROR" };
       }
@@ -57,7 +56,6 @@ const StartupForm = () => {
       toast("Error", {
         description: "Please check your inputs and try again",
         duration: 4000,
-        type: "error", // Not necessary if using `toast.error()`
       });
 
       return {
