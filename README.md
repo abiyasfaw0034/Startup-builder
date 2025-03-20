@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a Nextjs project where you can create a startup and view others too, with authentication and file storage using Github and Sanity ui for file storing using documents
 
 ## Getting Started
 
